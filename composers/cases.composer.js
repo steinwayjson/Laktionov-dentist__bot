@@ -8,8 +8,8 @@ composer.action('cases__primary-endodontic--one', (ctx) => {
     ctx.editMessageText('https://telegra.ph/Pervichnoe-ehndodonticheskoe-lechenie-04-28', {
         reply_markup: Markup.inlineKeyboard([
             [
-              Markup.callbackButton('<<', 'cases__primary-endodontic'),
-              Markup.callbackButton('>>', 'cases__primary-endodontic--two'),
+              Markup.callbackButton('←', 'cases__primary-endodontic'),
+              Markup.callbackButton('→', 'cases__primary-endodontic--two'),
             ],
             [
                 Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -26,8 +26,8 @@ composer.action('cases__primary-endodontic--two', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Pervichnoe-ehndodonticheskoe-lechenie-05-05 ', {
       reply_markup: Markup.inlineKeyboard([
           [
-            Markup.callbackButton('<<', 'cases__primary-endodontic--one'),
-            Markup.callbackButton('>>', 'cases__primary-endodontic--one'),
+            Markup.callbackButton('←', 'cases__primary-endodontic--one'),
+            Markup.callbackButton('→', 'cases__primary-endodontic--one'),
           ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -45,8 +45,8 @@ composer.action('cases__repeated_endodontic--one', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Povtornoe-ehndodonticheskoe-lechenie-05-05', {
       reply_markup: Markup.inlineKeyboard([
           [
-            Markup.callbackButton('<<', 'cases__repeated_endodontic'),
-            Markup.callbackButton('>>', 'cases__repeated_endodontic--two'),
+            Markup.callbackButton('←', 'cases__repeated_endodontic'),
+            Markup.callbackButton('→', 'cases__repeated_endodontic--two'),
           ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -62,8 +62,8 @@ composer.action('cases__repeated_endodontic--two', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Povtornoe-ehndodonticheskoe-lechenie-05-05-2', {
       reply_markup: Markup.inlineKeyboard([
           [
-            Markup.callbackButton('<<', 'cases__repeated_endodontic--one'),
-            Markup.callbackButton('>>', 'cases__repeated_endodontic--three'),
+            Markup.callbackButton('←', 'cases__repeated_endodontic--one'),
+            Markup.callbackButton('→', 'cases__repeated_endodontic--three'),
           ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -79,8 +79,8 @@ composer.action('cases__repeated_endodontic--three', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Povtornoe-ehndodonticheskoe-lechenie-05-05-3', {
       reply_markup: Markup.inlineKeyboard([
           [
-            Markup.callbackButton('<<', 'cases__repeated_endodontic--two'),
-            Markup.callbackButton('>>', 'cases__repeated_endodontic--one'),
+            Markup.callbackButton('←', 'cases__repeated_endodontic--two'),
+            Markup.callbackButton('→', 'cases__repeated_endodontic--one'),
           ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -99,8 +99,8 @@ composer.action('cases__direct-restoration--one', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Restavraciya-tverdyh-tkanej-zuba-07-12', {
       reply_markup: Markup.inlineKeyboard([
 //          [
-//           Markup.callbackButton('<<', 'cases__direct-restoration--one'),
-//           Markup.callbackButton('>>', 'cases__direct-restoration--one'),
+//           Markup.callbackButton('←', 'cases__direct-restoration--one'),
+//           Markup.callbackButton('→', 'cases__direct-restoration--one'),
 //        ]
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -118,8 +118,8 @@ composer.action('cases__professional-hygiene--one', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Professionalnaya-gigiena-05-19', {
       reply_markup: Markup.inlineKeyboard([
 //          [
-//            Markup.callbackButton('<<', 'cases__professional-hygiene--one'),
-//            Markup.callbackButton('>>', 'cases__professional-hygiene--one'),
+//            Markup.callbackButton('←', 'cases__professional-hygiene--one'),
+//            Markup.callbackButton('→', 'cases__professional-hygiene--one'),
 //          ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -137,8 +137,8 @@ composer.action('cases__diagnosis--one', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Restavraciya-tverdyh-tkanej-zuba-07-12', {
       reply_markup: Markup.inlineKeyboard([
 //          [
-//            Markup.callbackButton('<<', 'cases__diagnosis--one'),
-//            Markup.callbackButton('>>', 'cases__diagnosis--one'),
+//            Markup.callbackButton('←', 'cases__diagnosis--one'),
+//            Markup.callbackButton('→', 'cases__diagnosis--one'),
 //          ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -156,8 +156,8 @@ composer.action('cases__microsurgery--one', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Apikalnaya-hirurgiya-07-18', {
       reply_markup: Markup.inlineKeyboard([
           [
-            Markup.callbackButton('<<', 'cases__microsurgery'),
-            Markup.callbackButton('>>', 'cases__microsurgery--two'),
+            Markup.callbackButton('←', 'cases__microsurgery'),
+            Markup.callbackButton('→', 'cases__microsurgery--two'),
           ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
@@ -173,8 +173,8 @@ composer.action('cases__microsurgery--two', (ctx) => {
   ctx.editMessageText('https://telegra.ph/Apikalnaya-hirurgiya-07-18-2', {
       reply_markup: Markup.inlineKeyboard([
           [
-            Markup.callbackButton('<<', 'cases__microsurgery--one'),
-            Markup.callbackButton('>>', 'cases__microsurgery--one'),
+            Markup.callbackButton('←', 'cases__microsurgery--one'),
+            Markup.callbackButton('→', 'cases__microsurgery--one'),
           ],
           [
             Markup.callbackButton('Записаться на прием', 'contact-form')
